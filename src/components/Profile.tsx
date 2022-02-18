@@ -1,16 +1,16 @@
-import styles from '../styles/components/Profile.module.css'
+import styles from '../styles/components/Profile.module.css';
 
 export function Profile() {
   return (
     <div className={styles.profileContainer}>
-        <img src="https://github.com/mthabreu.png" alt="Matheus Abreu" />   
-        <div>
-            <strong>Matheus Abreu</strong>
-            <p>
-              <img src="icons/level.svg" alt="Level" />
-              Level 1
-            </p>
-        </div>  
+      <img src="https://github.com/mthabreu.png" alt="Matheus Abreu" />
+      <div>
+        <strong>Matheus Abreu</strong>
+        <p>
+          <img src="icons/level.svg" alt="Level" />
+          Level 1
+        </p>
+      </div>
     </div>
-  )
+  );
 }
